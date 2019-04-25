@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  background-image: url('./images/google-map-background.png');
+  background-size: cover;
+  background-color: ghostwhite;
+  height: 100vh;
+  width: 100%;
+}
+
+/* NavigationBar.js */
+.nav {
+  background-color: #0b9496;
+}
+
+.navLink {
+  color: white;
+}
+
+.registerNav {
+  display: none;
+}
+
+.navLogo {
+  padding-right: 10px;
+  width: 150px;
+}
+
+a.dropdown-toggle::after {
+  display: none;
+}
+
+/* Home.js */
+.home {
+  height: 100vh;
+  background-color: #0b9496;
+  opacity: 0.75;
+}
+
+.homeLogo {
+  padding-top: 200px;
+}
+
+.suggestionHome {
+  margin-top: 30px;
+  width: 200px;
+  color: #0b9496;
+}
+
+.settingHome {
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+/* Suggestion.js */
+.suggestionBackground {
+  background-color: #FFF;
+  opacity: 0.85;
+  height: 90vh;
+}
+
+.info {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  opacity: 0.85;
+}
+
+.infoIcon {
+  width: 25px;
+  height: 25px;
+} 
+
+.suggestionButtonS {
+  margin-top: 30px;
+  background-color: #0b9496;
+  color: #FFF;
+  width: 200px;
+}
+
+.settingButtonS {
+  margin-top: 30px;
+  margin-right: 5px;
+  background-color: #0b9496;
+  color: #FFF;
+}
+
+.googleMapButton {
+  background-color: #0b9496;
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.displaySlideshow {
+  display: none;
+}
+
+.displayMap {
+  margin: 0 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .registerNav{
+    display: inline-flex;
+  }
+  .registerDropdown {
+    display: none;
+  }
+  .displayMap{
+    display: none;
+  }
+  .displaySlideshow {
+    display: block;
+  }
+  .infoTab {
+    display: none;
+  }
+}
